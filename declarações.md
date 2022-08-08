@@ -1,4 +1,4 @@
-## Statements
+## Declarações
 
 ## if
 ## switch
