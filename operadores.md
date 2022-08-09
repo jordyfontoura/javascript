@@ -50,8 +50,7 @@
 
 ## Typeof Operator
 
-The typeof operator returns the type of a variable, object, function or expression:
-
+O operador `typeof` retorna o tipo de uma variavel, objeto, função ou expressão
 ```js
 typeof "John"                 // Returns string
 typeof 3.14                   // Returns number
@@ -65,16 +64,17 @@ typeof myCar                  // Returns undefined (if myCar is not declared)
 typeof null                   // Returns object
 ```
 
-Please observe:
+Observe que:
 
-The data type of NaN is number
-The data type of an array is object
-The data type of a date is object
-The data type of null is object
-The data type of an undefined variable is undefined
+typeof NaN == number
+typeof array == object
+typeof date == object
+typeof null == object
+typeof undefined == undefined
 
 ## Delete Operator
-The delete operator deletes a property from an object:
+
+Deleta uma propriedade de um objeto
 ```js
 const person = {
   firstName:"John",
@@ -86,7 +86,7 @@ delete person.age;   // or delete person["age"];
 ```
 
 ## In Operator
-The in operator returns true if the specified property is in the specified object, otherwise false:
+Retorna se a propriedade especificada está no objeto
 
 ```js
 // Arrays
